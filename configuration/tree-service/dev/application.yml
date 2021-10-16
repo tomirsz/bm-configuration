@@ -13,3 +13,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: bonsai_master
     password: bonsai_master
+
+server:
+  port: 8080
