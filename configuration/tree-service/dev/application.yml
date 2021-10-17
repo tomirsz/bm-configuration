@@ -14,5 +14,11 @@ spring:
     username: bonsai_master
     password: bonsai_master
 
+keycloak:
+  auth-server-url: http://localhost:8080/auth
+  realm: BonsaiManager
+  resource: tree-service
+  public-client: true
+
 server:
   port: 8081
