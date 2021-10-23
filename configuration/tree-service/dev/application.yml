@@ -10,14 +10,14 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: bonsai_master
-    password: bonsai_master
+    url: '{cipher}8108b7a9d9badac918ee123dfeb6d412bf19302cbbc6bb0b57e850c3a454e4798fb5804c55de777e7ebd8e8e7719ba5cefaf6b0b54fd723bf5d3ea0a2c1f6d4c'
+    username: '{cipher}05566fd6d443636bafcdc7b6932555ce8dd26a20f79733ea60b33140fb948914'
+    password: '{cipher}de09a15825872668b1d62bd0b085affe42148d7547d56606ed02ad304832a546'
 
 keycloak:
   auth-server-url: http://localhost:8080/auth
-  realm: BonsaiManager
-  resource: tree-service
+  realm: '{cipher}8880541bc1f65d2c9bbe6034f15ccdf72c7d4cf66d2dbfd9b0496f867279db37'
+  resource: '{cipher}8226267740f31bfe73dbd9609076222552a9cb5e51ecbd5c4f06be4eb6aa73ba'
   public-client: true
 
 server:

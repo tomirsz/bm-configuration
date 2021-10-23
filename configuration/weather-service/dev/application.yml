@@ -1,2 +1,7 @@
 server:
   port: 8083
+
+open:
+  weather:
+    url: https://api.openweathermap.org/data/2.5/onecall?exclude=current,minutely,hourly,alerts&units=metric&lang=PL
+    key: '{cipher}cf4181ee0af27ea173af22769579ffc9cde299ed8ec5133c7e9b1be1c40dfd0249c295d089d34ad25472e75edb2018e07c3ebd673571863c0835ab04c3ff16f8'
