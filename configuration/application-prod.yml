@@ -1,4 +1,6 @@
-eureka-client:
-  serviceUrl:
-    defaultZone: '{cipher}7da60b3bfb2cfa8c30cfa2645d941ae71635a246d87cb041947f4c1da0fbe7b8bffb5b273361fdc2382a3663ebcd479c4ef6bd7e9a683150f6679834296e290a807cbd2d792bdd6b5da5ed0a2bd50ce1'
-  fetchRegistry: true
+eureka:
+  client:
+    register-with-eureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: '{cipher}7da60b3bfb2cfa8c30cfa2645d941ae71635a246d87cb041947f4c1da0fbe7b8bffb5b273361fdc2382a3663ebcd479c4ef6bd7e9a683150f6679834296e290a807cbd2d792bdd6b5da5ed0a2bd50ce1'
