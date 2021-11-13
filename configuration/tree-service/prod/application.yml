@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    database: postgresql
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        jdbc:
+          lob:
+            non_contextual_creation: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${${JDBC_DATABASE_PASSWORD}
+
+keycloak:
+  auth-server-url: '{cipher}dab5540e11abee90be54d9007a210b0c8f6a84bc0dcd0a1cd95eaa78a1df85a58cd4849562ff10dc1ced41e6c64ec75c'
+  realm: '{cipher}8880541bc1f65d2c9bbe6034f15ccdf72c7d4cf66d2dbfd9b0496f867279db37'
+  resource: '{cipher}8226267740f31bfe73dbd9609076222552a9cb5e51ecbd5c4f06be4eb6aa73ba'
+  public-client: true
+
+server:
+  port: 8081
