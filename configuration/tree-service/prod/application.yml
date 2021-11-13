@@ -15,7 +15,7 @@ spring:
     password: ${${JDBC_DATABASE_PASSWORD}
 
 keycloak:
-  auth-server-url: '{cipher}dab5540e11abee90be54d9007a210b0c8f6a84bc0dcd0a1cd95eaa78a1df85a58cd4849562ff10dc1ced41e6c64ec75c'
+  auth-server-url: '{cipher}1da14a0775364dfbeaf252c1c5705af762982488e9e5b1c14a9e61a0bfa1fa6ca933cad6dfebd39b22f6be0da0a3849c2b072b67d52f5bf75e2c19a966d0846b'
   realm: '{cipher}8880541bc1f65d2c9bbe6034f15ccdf72c7d4cf66d2dbfd9b0496f867279db37'
   resource: '{cipher}8226267740f31bfe73dbd9609076222552a9cb5e51ecbd5c4f06be4eb6aa73ba'
   public-client: true
