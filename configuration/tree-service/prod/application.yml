@@ -12,10 +12,10 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: ${JDBC_DATABASE_URL}
     username: ${JDBC_DATABASE_USERNAME}
-    password: ${${JDBC_DATABASE_PASSWORD}
+    password: ${JDBC_DATABASE_PASSWORD}
 
 keycloak:
-  auth-server-url: '{cipher}5a0c698aabdcd3d6c0b70e4abc640a2cd832e8d0705664322bca56cbadda4af656c3e48cb51b48d56a1db12678136fb5031452ec02c6ca3e6d24f7a986870063'
+  auth-server-url: ${AUTH_SERVER_URL}
   realm: '{cipher}8880541bc1f65d2c9bbe6034f15ccdf72c7d4cf66d2dbfd9b0496f867279db37'
   resource: '{cipher}8226267740f31bfe73dbd9609076222552a9cb5e51ecbd5c4f06be4eb6aa73ba'
   public-client: true
