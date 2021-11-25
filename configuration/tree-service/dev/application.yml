@@ -15,10 +15,7 @@ spring:
     password: '{cipher}de09a15825872668b1d62bd0b085affe42148d7547d56606ed02ad304832a546'
 
 keycloak:
-  auth-server-url: '{cipher}dab5540e11abee90be54d9007a210b0c8f6a84bc0dcd0a1cd95eaa78a1df85a58cd4849562ff10dc1ced41e6c64ec75c'
+  auth-server-url: ${AUTH_SERVER_URL}
   realm: '{cipher}8880541bc1f65d2c9bbe6034f15ccdf72c7d4cf66d2dbfd9b0496f867279db37'
   resource: '{cipher}8226267740f31bfe73dbd9609076222552a9cb5e51ecbd5c4f06be4eb6aa73ba'
   public-client: true
-
-server:
-  port: 8081
